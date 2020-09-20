@@ -1,0 +1,21 @@
+<div class="card">
+  <div class="card-title">
+    <p>
+      {{product.productName}}
+    </p>
+  </div>
+  <div class="card-body">
+    <span>
+      Description: {{product.description}}
+    </span>
+    <span>
+      Price: {{product.price}}
+    </span>
+  </div>
+  <div class="card-footer">
+    <a class="btn btn-sm primary" routerLink="products/{{product.id}}" >
+      Details
+    </a>
+  </div>
+  </div>
+
